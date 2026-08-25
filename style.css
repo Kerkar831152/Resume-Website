@@ -1,14 +1,96 @@
-#blo
+.blo
 { color:rgb(136, 33, 232)
 }
 .hea
 { margin: 3px;
-  color: white;
+  color: rgb(151, 145, 145);
 } 
 .in
 { display: inline-block;
-    margin-right: 80px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+#log
+{ display: inline-block;
+    margin-left: 100px;
 }
 body
-{ background-color: rgb(13, 3, 66);
+{ background-color: rgb(9, 3, 39);
+}
+header{
+  border-color: rgb(56, 50, 99);
+  border-style: solid;
+  border-width: 0.05px;
+}
+#des
+{ margin-left: 60px;
+  margin-top:60px ;
+  color:rgb(151, 145, 145);
+  display:inline-block;
+  vertical-align: top;
+}
+#t
+{ font-size:65px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:white;
+}
+#vier
+{ background-color: rgb(83, 46, 217);
+  border-color: rgba(132, 29, 251, 0.873);
+  width:120px;
+  height:40px;
+  border-radius: 5px;
+  border-width: 0.8px;
+  color:white;
+  display:inline-block;
+  margin-right: 8px;
+}
+#viep
+{ background-color: rgb(0, 0, 0);
+  border-color: rgba(236, 232, 240, 0.873);
+  width:120px;
+  height:40px;
+  border-radius: 5px;
+  border-width: 0.8px;
+  color:white;
+  display:inline-block;
+  margin-right: 15px;
+}
+#imp
+{ background-image:url("safety.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:inline-block;
+  border-radius: 50%;
+  width:280px;
+  height:260px;
+  margin-left:150px;
+  margin-top: 60px;
+  vertical-align: top;
+  border-color: rgb(82, 92, 242);
+  border-width: 3px;
+  border-style: solid;
+}
+.ic
+{ display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  border-radius:50%;
+  background-color: rgb(43, 33, 109);
+  width:30px;
+  height:30px;
+}
+.ic i
+{ color:white;
+}
+#sh
+{ margin-top: 20px;
+}
+#p2
+{ margin-top: 20px;
+  background-color: rgb(12, 4, 48);
 }
