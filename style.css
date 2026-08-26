@@ -4,6 +4,7 @@
 .hea
 { margin: 3px;
   color: rgb(151, 145, 145);
+  margin-right: 13px;
 } 
 .in
 { display: inline-block;
@@ -23,8 +24,8 @@ header{
   border-width: 0.05px;
 }
 #des
-{ margin-left: 60px;
-  margin-top:60px ;
+{ padding-left: 60px;
+  padding-top:60px ;
   color:rgb(151, 145, 145);
   display:inline-block;
   vertical-align: top;
@@ -44,7 +45,12 @@ header{
   border-width: 0.8px;
   color:white;
   display:inline-block;
-  margin-right: 8px;
+  margin-right: 15px;
+}
+#vier:hover
+{ transition-duration:100ms;
+  transform: scale(1.1);
+
 }
 #viep
 { background-color: rgb(0, 0, 0);
@@ -56,6 +62,10 @@ header{
   color:white;
   display:inline-block;
   margin-right: 15px;
+}
+#viep:hover
+{ transition-duration:100ms;
+  transform: scale(1.1);
 }
 #imp
 { background-image:url("safety.webp");
@@ -92,5 +102,155 @@ header{
 }
 #p2
 { margin-top: 20px;
-  background-color: rgb(12, 4, 48);
+  background-color: rgb(7, 2, 27);
+  padding-left:60px;
+  padding-top: 20px;
+  border-color: rgb(115, 10, 207);
+  border-radius: 3px;
+  border-style: solid;  
+  border-width: 0.0001px ;
+}
+#ge
+{ margin-top: 5px;
+  color:white;
+  margin-bottom: 5px;
+}
+#hb
+{ width: 25px;
+  border-color: rgb(115, 10, 207);
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 0;
+  margin-bottom:10px;
+}
+.p2f
+{ color:rgb(151, 145, 145);
+}
+.p2c
+{ color:rgb(151, 145, 145);
+  margin-bottom: 8px;
+}
+.p2c i
+{ color:rgb(131, 19, 235);
+  margin-right: 10px;
+}
+#ab
+{ display:inline-block;
+  margin-right:50px;
+}
+.lb
+{ width:150px;
+  height:160px;
+  margin-top:30px;
+  background-color: rgb(24, 29, 43); 
+  border-style: solid;
+  border-color: grey;
+  border-width:0.01px;
+  border-radius:10px;
+  display:inline-block;
+  vertical-align: top;
+  margin-right:20px;
+}
+.lb:hover
+{ transition-duration:100ms;
+  transform: scale(1.1);
+}
+#gi
+{ display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border-width: 0.005px;
+  border-color: rgb(15, 32, 85);
+  background-color: rgb(2, 10, 29);
+  border-style: solid;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#gi i
+{ color:rgb(198, 191, 191);
+  font-size: 30px;
+}
+#tl
+{ display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border-width: 0.005px;
+  border-color: rgb(15, 32, 85);
+  background-color: rgb(2, 10, 29);
+  border-style: solid;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#tl i
+{ color:rgb(82, 24, 148);
+  font-size: 20px;
+}
+#toi
+{ display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border-width: 0.005px;
+  border-color: rgb(15, 32, 85);
+  background-color: rgb(2, 10, 29);
+  border-style: solid;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#toi i
+{ color:rgb(141, 15, 180);
+  font-size: 24px;
+}
+#coi
+{ display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  border-width: 0.005px;
+  border-color: rgb(15, 32, 85);
+  background-color: rgb(2, 10, 29);
+  border-style: solid;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#coi i
+{ color:rgb(41, 59, 224);
+  font-size: 24px;
+}
+.bf
+{ color:white;
+  margin-top:5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+.cf
+{ color:rgb(151, 145, 145);
+  margin-left:15px;
+}
+.cf2
+{ color:rgb(151, 145, 145);
+  margin-left:15px;
+  margin-top: 5px;
+}
+#p3
+{ margin-top: 10px;
+  background-color: rgb(10, 3, 39);
+  padding-left:60px;
+  padding-top: 5px;
+}
+#p3t
+{ color:white;
+  text-align: center;
+
 }
