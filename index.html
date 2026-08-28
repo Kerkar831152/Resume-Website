@@ -7,10 +7,10 @@
 </head>
 <body>
 <header>
- <div class="in">
+ <div id="in">
     <p><a class="blo">Vithal</a><a class="hea"> Kerkar</a></p>
  </div>
- <div class="in">
+ <div id="in">
      <a class="hea">Home</a>
      <a class="hea">About</a>
      <a class="hea">Skills</a>
@@ -182,8 +182,11 @@
             </div>
         </div>
         <div id="p4">
-              <b id="p4t">Featured Projects</b>
-              <button id="vlp" type="button">View All Projects -></button>
+            <div id="p4head">
+                <b id="p4t">Featured Projects</b>
+                <button id="vlp" type="button">View All Projects -></button>
+            </div>
+            
               <hr id="hb3">
               <div class="lpro">
                 <div id="toima"></div>
@@ -193,33 +196,68 @@
                 <div class="pcon">JavaScript</div>
                 <div class="pcon">Firebase</div>
                 <div class="pcon">Leaflet</div>
+                <span class="proic" title="Share"> <i class="fa-solid fa-share-nodes"></i></span>
+                <span class="proic" title="GitHub"><i class="fa-brands fa-github"></i></span>
               </div>
               <div class="lpro">
-                
+                <div id="toani"></div>
+                <a class="phe">Anirec-Anime Recommendation System</a>
+                <p class="phtext">AI-powered anime recommendation system with user preference analysis.</p>
+                <div class="pcon">React</div>
+                <div class="pcon">JavaScript</div>
+                <div class="pcon">Firebase</div>
+                <div class="pcon">Html</div>
+                <span class="proic" title="Share"> <i class="fa-solid fa-share-nodes"></i></span>
+                <span class="proic" title="GitHub"><i class="fa-brands fa-github"></i></span>
               </div>
               <div class="lpro">
-                
+                <div id="tores"></div>
+                <a class="phe">Portfolio Website</a>
+                <p class="phtext">Personal portfolio website to showcase projects and skills.</p>
+                <div class="pcon">Html</div>
+                <div class="pcon">JavaScript</div>
+                <div class="pcon">Firebase</div>
+                <div class="pcon">Css</div>
+                <span class="proic" title="Share"> <i class="fa-solid fa-share-nodes"></i></span>
+                <span class="proic" title="GitHub"><i class="fa-brands fa-github"></i></span>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+        <div id="p5">
+            <div id="p5t">LET'S CONNECT</div>
+            <hr id="p5tdash">
+            <div id="p5cont">
+                <div id="p5cin">
+                    <p class="p5contel"><i class="fa-regular fa-envelope"></i> vithal.kerkar@example.com</p>
+                    <p class="p5contel"><i class="fa-solid fa-location-dot"></i>Goa India</p>
+                    <p class="p5contel"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/vithal-kerkar</p>
+                    <p class="p5contel"><i class="fa-brands fa-github"></i> github.com/vithal-kerkar</p>
+                </div>
+                <div id="p5dat">
+                    <div id="p5ne">
+                        <form>
+                            <input id="p5dname" type="text" placeholder="Your Name">
+                            <input id="p5demail" type="text" placeholder="Your Email">
+                        </form>
+                    </div>
+                    <div id="p5dmes">
+                        <form>
+                            <textarea id="p5dm" type="text" placeholder="Your Message"></textarea>
+                        </form>
+                    </div>
+                    <button id="p5mesub">Send Message</button>
+                </div>  
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="p6">
+             <p><a id="p6n">Vithal</a><a id="p6s"> Kerkar</a></p>
+             <p id="p6trade"><i class="fa-regular fa-copyright"></i>2026 Vithal Kerkar. All rights reserved</p>
         </div>
 
         
-    </main>
+
+    </footer>
 </body>
 
 </html>
